@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { pricingData } from '@/data/pricing';
 
 export default function Footer() {
@@ -10,8 +9,8 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-6">
-              <Image
-                src="/J Calvin Propert Care Logo - footer.png"
+              <img
+                src="/property-care/J Calvin Propert Care Logo - footer.png"
                 alt="J Calvin Property Care"
                 width={144}
                 height={36}

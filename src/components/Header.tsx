@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 const carePlanItems = [
@@ -31,13 +30,12 @@ export default function Header() {
     <nav className="fixed top-0 left-0 right-0 bg-cream/95 backdrop-blur-md border-b border-hunter/10 z-50 px-6">
       <div className="max-w-[1400px] mx-auto flex justify-between items-center h-20">
         <Link href="/" className="flex items-center">
-          <Image
-            src="/J Calvin Propert Care Logo - header.png"
+          <img
+            src="/property-care/J Calvin Propert Care Logo - header.png"
             alt="J Calvin Property Care"
             width={168}
             height={42}
             className="h-[42px] w-auto"
-            priority
           />
         </Link>
 
